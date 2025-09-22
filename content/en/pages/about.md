@@ -1,7 +1,7 @@
 +++
 title = "About"
 date = 2025-09-21T23:10:00-03:00
-draft = true
+draft = false
 +++
 
 ## About Me
