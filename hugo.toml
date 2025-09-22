@@ -1,0 +1,98 @@
+title = "Renan's blog"
+baseURL = 'https://blog.konanzin.com/'
+theme = "hugo-blog-awesome"
+defaultContentLanguage = "en"
+enableEmoji = true
+
+[markup.highlight]
+  noClasses = false
+
+############################## Global Social Icons ################################
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://linkedin.com/in/renan-bortoleto/"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/konanzin/"
+
+############################## English language ################################
+[Languages.en]
+  languageName = "English"
+  languageCode = "en"
+  contentDir = "content/en"
+  weight = 1
+
+  [Languages.en.menu]
+    [[Languages.en.menu.main]]
+      pageRef="/"
+      name = 'Home'
+      weight = 10
+    [[Languages.en.menu.main]]
+      pageRef="posts"
+      name = 'Posts'
+      weight = 20
+    [[Languages.en.menu.main]]
+      pageRef="about"
+      name = 'About'
+      weight = 30
+
+  [Languages.en.params]
+    # CORREÇÃO PRINCIPAL ESTÁ AQUI
+    mainSections = ['posts']
+    [Languages.en.params.author]
+      name = "Renan Bortoleto Ferreira"
+      intro = "Renan Bortoleto Ferreira"
+      description = "Offensive security analyst and security researcher. In this blog I'll talk about cyber security related topics, focusing on my offensive security journey, studies, certifications, bug bounty and research."
+      # Coloque sua foto em /assets/avatar.jpg e descomente a linha abaixo
+      avatar = "avatar.jpg"
+    
+    defaultMode = "dark"
+    showDarkModeButton = true
+
+    [[Languages.en.params.social]]
+      name = "LinkedIn"
+      url = "https://linkedin.com/in/renan-bortoleto/"
+    [[Languages.en.params.social]]
+      name = "GitHub"
+      url = "https://github.com/konanzin/"
+
+############################## Brazilian language ################################
+[Languages.br]
+  languageName = "Português"
+  languageCode = "pt-br"
+  contentDir = "content/br"
+  weight = 2
+
+  [Languages.br.menu]
+    [[Languages.br.menu.main]]
+      pageRef="/"
+      name = 'Início'
+      weight = 10
+    [[Languages.br.menu.main]]
+      pageRef="posts"
+      name = 'Publicações'
+      weight = 20
+    [[Languages.br.menu.main]]
+      pageRef="about"
+      name = 'Sobre'
+      weight = 30
+
+  [Languages.br.params]
+    # CORREÇÃO PRINCIPAL ESTÁ AQUI TAMBÉM
+    mainSections = ['posts']
+    [Languages.br.params.author]
+      name = "Renan Bortoleto Ferreira"
+      intro = "Renan Bortoleto Ferreira"
+      description = "Analista de segurança ofensiva e pesquisador de segurança. Neste blog falarei sobre tópicos relacionados à segurança cibernética, com foco na minha jornada em segurança ofensiva, estudos, certificações, bug bounty e pesquisas."
+      avatar = "avatar.jpg"
+    
+    defaultMode = "dark"
+    showDarkModeButton = true
+    
+    [[Languages.br.params.social]]
+      name = "LinkedIn"
+      url = "https://linkedin.com/in/renan-bortoleto/"
+    [[Languages.br.params.social]]
+      name = "GitHub"
+      url = "https://github.com/konanzin/"
